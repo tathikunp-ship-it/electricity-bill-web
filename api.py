@@ -25,4 +25,3 @@ async def upload_file(file: UploadFile = File(...)):
         }
 
     return {"message": "รองรับเฉพาะไฟล์ CSV ในตอนนี้"}
-
